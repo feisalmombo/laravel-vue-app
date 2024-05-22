@@ -23613,14 +23613,6 @@ __webpack_require__.r(__webpack_exports__);
 //     el: '#app',
 // });
 
-// import { createApp } from "vue";
-
-// import App from "./App.vue";
-
-// createApp(App).mount("#app");
-
-// require("./bootstrap");
-
 
 
 var app = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)({});
