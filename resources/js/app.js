@@ -14,10 +14,23 @@
 //     el: '#app',
 // });
 
-import { createApp } from "vue";
+// import { createApp } from "vue";
 
-import App from "./App.vue";
+// import App from "./App.vue";
 
-createApp(App).mount("#app");
+// createApp(App).mount("#app");
+
+// require("./bootstrap");
+
+
+import { createApp } from 'vue';
+
+import ExampleComponent from './components/ExampleComponent';
+
+const app = createApp({})
+
+app.component('example-component', ExampleComponent);
+
+app.mount('#app');
 
 require("./bootstrap");
